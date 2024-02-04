@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 50px auto;
+    max-width: 400px;
+    height: 85vh;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .msgContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sendMsg {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .sendMsgInp {
+    flex: 1;
+    height: 38px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .sendBtn {
+    height: 38px;
+    width: 60px;
+    margin-left: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sendBtn:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  button[type="submit"] {
+    height: 38px;
+    margin-left: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
